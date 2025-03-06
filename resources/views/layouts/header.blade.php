@@ -178,16 +178,16 @@
 
             <ul class="d-flex justify-content-end list-unstyled m-0">
                 <li class="nav-item dropdown">
-                <a href="#" class="rounded-circle bg-light p-2 mx-1 nav-link" aria-expanded="false">
+                <a href="#" class="rounded-circle bg-light p-2 mx-1 nav-link" onclick="Dropdown_menu()" aria-expanded="false">
                   <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#user"></use></svg>
                 </a>
-                  <!-- <ul class="dropdown-menu" id="dropdown" aria-labelledby="pages">
+                  <ul class="dropdown-menu" id="dropdown-id" aria-labelledby="pages">
                     <li><a href="index.html" class="dropdown-item">สมัครสมาชิก</a></li>
                     <li><a href="index.html" class="dropdown-item">เข้าสู่ระบบ</a></li>
                     <li><a href="index.html" class="dropdown-item">google login</a></li>
                     <li><a href="index.html" class="dropdown-item">Cart </a></li>
                     <li><a href="index.html" class="dropdown-item">Checkout </a></li>
-                  </ul> -->
+                  </ul>
                 </li>
               <li>
                 <a href="#" class="rounded-circle bg-light p-2 mx-1">
@@ -255,7 +255,7 @@
                       <a href="#accessories" class="nav-link">Accessories</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" role="button" id="pages" onclick="myFunction()" aria-expanded="false">Pages</a>
+                      <a class="nav-link dropdown-toggle" role="button" id="pages" onclick="dropdown_page_menu()" aria-expanded="false">Pages</a>
                       <ul class="dropdown-menu" id="dropdown" aria-labelledby="pages">
                         <li><a href="index.html" class="dropdown-item">About Us </a></li>
                         <li><a href="index.html" class="dropdown-item">Shop </a></li>
@@ -297,6 +297,7 @@
     <script src="{{asset('js/plugins.js')}}"></script>
     <script src="{{asset('js/script.js')}}"></script>
     <script src="{{asset('js/dropdown.js')}}"></script>
+    <script src="{{asset('js/menu_dropdown.js')}}"></script>
     @yield('content')
 </body>
 </html>

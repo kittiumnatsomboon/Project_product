@@ -13,7 +13,19 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('fullname')->comment('ชื่อ-นามสกุล');
+            $table->date('dateofbirth')->comment('วันเดือนปีเกิด');
+            $table->string('telephone_number')->comment('เบอร์ติดต่อ');
+            $table->integer('user_type')->comment('ชนิดของผู้ใช้งาน');
+            $table->string('name_image')->comment('รูปโปรไฟล์');
+            $table->integer('housenumber')->comment('เลขที่บ้าน');
+            $table->string('VillageNumber')->comment('หมู่ที่');
+            $table->string('Alley')->comment('ซอย');
+            $table->string('Road')->comment('ถนน');
+            $table->string('Sub-district')->comment('ตำบล แขวง');
+            $table->string('District')->comment('อำเภอ เขต');
+            $table->string('Province')->comment('จังหวัด');
+            $table->string('Postal Code')->comment('รหัสไปษณี');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

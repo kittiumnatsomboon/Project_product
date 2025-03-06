@@ -117,8 +117,8 @@ CSS STRUCTURE:
 
 /* Fonts */
 :root {
-    --body-font           : "Itim", cursive;;
-    --heading-font        : "Itim", cursive;;
+    --body-font           : "Itim", cursive;
+    --heading-font        : "Itim", cursive;
 }
 
 body {
@@ -133,7 +133,7 @@ body {
 
   --bs-light-rgb: 248, 248, 248;
 
-  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-font-sans-serif: "Itim", cursive;;
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;

@@ -177,12 +177,18 @@
             </div>
 
             <ul class="d-flex justify-content-end list-unstyled m-0">
-              <li>
-                <a href="#" class="rounded-circle bg-light p-2 mx-1">
+                <li class="nav-item dropdown">
+                <a href="#" class="rounded-circle bg-light p-2 mx-1 nav-link dropdown-toggle"id="pages" onclick="myFunction()" aria-expanded="false">
                   <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#user"></use></svg>
                 </a>
-                
-              </li>
+                  <ul class="dropdown-menu" id="dropdown" aria-labelledby="pages">
+                    <li><a href="index.html" class="dropdown-item">สมัครสมาชิก</a></li>
+                    <li><a href="index.html" class="dropdown-item">เข้าสู่ระบบ</a></li>
+                    <li><a href="index.html" class="dropdown-item">google login</a></li>
+                    <li><a href="index.html" class="dropdown-item">Cart </a></li>
+                    <li><a href="index.html" class="dropdown-item">Checkout </a></li>
+                  </ul>
+                </li>
               <li>
                 <a href="#" class="rounded-circle bg-light p-2 mx-1">
                   <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#heart"></use></svg>

@@ -182,7 +182,7 @@
                   <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#user"></use></svg>
                 </a>
                   <ul class="dropdown-menu" id="dropdown-id" aria-labelledby="pages">
-                    <li><a href="index.html" class="dropdown-item">สมัครสมาชิก</a></li>
+                    <li><a href="{{URL::TO('/customer/register')}}" class="dropdown-item">สมัครสมาชิก</a></li>
                     <li><a href="index.html" class="dropdown-item">เข้าสู่ระบบ</a></li>
                     <li><a href="index.html" class="dropdown-item">google login</a></li>
                     <li><a href="index.html" class="dropdown-item">Cart </a></li>

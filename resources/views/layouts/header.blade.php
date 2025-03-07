@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>FoodMart - Free eCommerce Grocery Store HTML Website Template</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -143,8 +143,8 @@
           
           <div class="col-sm-4 col-lg-3 text-center text-sm-start">
             <div class="main-logo">
-              <a href="index.html">
-                <img src="images/logo.png" alt="logo" class="img-fluid">
+              <a href="{{URL::TO('/')}}">
+                <img src="{{URL::TO('/images/logo.png')}}" alt="logo" class="img-fluid">
               </a>
             </div>
           </div>
@@ -182,7 +182,7 @@
                   <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#user"></use></svg>
                 </a>
                   <ul class="dropdown-menu" id="dropdown-id" aria-labelledby="pages">
-                    <li><a href="index.html" class="dropdown-item">สมัครสมาชิก</a></li>
+                    <li><a href="{{route('register')}}" class="dropdown-item">สมัครสมาชิก</a></li>
                     <li><a href="index.html" class="dropdown-item">เข้าสู่ระบบ</a></li>
                     <li><a href="index.html" class="dropdown-item">google login</a></li>
                     <li><a href="index.html" class="dropdown-item">Cart </a></li>

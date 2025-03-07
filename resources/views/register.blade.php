@@ -32,16 +32,31 @@
                     <div class="row">
                     <div class="col-md-6 p-5">
                         <div class="section-header">
-                        <h2 class="section-title display-4">Get <span class="text-primary">25% Discount</span> on your first purchase</h2>
+                        <h2 class="section-title display-4">สมัครสมาชิกกับระบบเพื่อใช้งานและทำการสั่งซื้อสินค้า</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst amet, metus, sit massa posuere maecenas. At tellus ut nunc amet vel egestas.</p>
+                        <p>ถ้าหากต้องการสั่งสินค้าต้องทำการสมัครสมาชิกและเข้าสู่ระบบเพื่อดำเนินการสั่งสินค้าต่อไป</p>
                     </div>
                     <div class="col-md-6 p-5">
                         <form>
                         <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
+                            <label for="name" class="form-label">ชื่อ-นามสกุล</label>
                             <input type="text"
-                            class="form-control form-control-lg" name="name" id="name" placeholder="Name">
+                            class="form-control form-control-lg" name="fullname" id="fullname" placeholder="กรุณาระบุชื่อ-นามสกุล">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">วันเดือปีเกิด</label>
+                            <input type="text"
+                            class="form-control form-control-lg" name="dateofbrith" id="dateofbrith" placeholder="กรุณาระบุวันเดือนปีเกิด">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">เบอร์โทรศัพท์</label>
+                            <input type="text"
+                            class="form-control form-control-lg" name="telephone" id="telephone" placeholder="กรุณาระบุเบอร์โทรศัพท์">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">บ้านเลขที่</label>
+                            <input type="text"
+                            class="form-control form-control-lg" name="housenumber" id="housenumber" placeholder="กรุณาระบุบ้านเลขที่">
                         </div>
                         <div class="mb-3">
                             <label for="" class="form-label">Email</label>

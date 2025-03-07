@@ -26,7 +26,7 @@
     <!-- use layout header -->
     <!-- start section  -->
     @section('content')
-    <section class="py-3" style="background-image: url('images/background-pattern.jpg');background-repeat: no-repeat;background-size: cover;">
+    <section class="py-3" style="background-image: url('{{URL::TO('/images/background-pattern.jpg')}}');background-repeat: no-repeat;background-size: cover;">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
@@ -47,7 +47,7 @@
                           <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1 px-4 py-3 mt-3">Shop Now</a>
                         </div>
                         <div class="img-wrapper col-md-5">
-                          <img src="images/product-thumb-1.png" class="img-fluid">
+                          <img src="{{URL::TO('/images/product-thumb-1.png')}}" class="img-fluid">
                         </div>
                       </div>
                     </div>
@@ -61,7 +61,7 @@
                           <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1">Shop Collection</a>
                         </div>
                         <div class="img-wrapper col-md-5">
-                          <img src="images/product-thumb-1.png" class="img-fluid">
+                          <img src="{{URL::TO('/images/product-thumb-1.png')}}" class="img-fluid">
                         </div>
                       </div>
                     </div>
@@ -75,7 +75,7 @@
                           <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1">Shop Collection</a>
                         </div>
                         <div class="img-wrapper col-md-5">
-                          <img src="images/product-thumb-2.png" class="img-fluid">
+                          <img src="{{URL::TO('/images/product-thumb-2.png')}}" class="img-fluid">
                         </div>
                       </div>
                     </div>
@@ -86,7 +86,7 @@
                 </div>
               </div>
               
-              <div class="banner-ad bg-success-subtle block-2" style="background:url('images/ad-image-1.png') no-repeat;background-position: right bottom">
+              <div class="banner-ad bg-success-subtle block-2" style="background:url('{{URL::TO('/images/ad-image-1.png')}}') no-repeat;background-position: right bottom">
                 <div class="row banner-content p-5">
 
                   <div class="content-wrapper col-md-7">
@@ -98,7 +98,7 @@
                 </div>
               </div>
 
-              <div class="banner-ad bg-danger block-3" style="background:url('images/ad-image-2.png') no-repeat;background-position: right bottom">
+              <div class="banner-ad bg-danger block-3" style="background:url('{{URL::TO('/images/ad-image-2.png')}}') no-repeat;background-position: right bottom">
                 <div class="row banner-content p-5">
 
                   <div class="content-wrapper col-md-7">
@@ -142,52 +142,52 @@
 
             <div class="category-carousel swiper">
               <div class="swiper-wrapper">
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-vegetables-broccoli.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-bread-baguette.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-bread-baguette.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Breads & Sweets</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-soft-drinks-bottle.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-soft-drinks-bottle.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-wine-glass-bottle.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-wine-glass-bottle.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-animal-products-drumsticks.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-animal-products-drumsticks.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-bread-herb-flour.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-bread-herb-flour.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-vegetables-broccoli.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-vegetables-broccoli.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-vegetables-broccoli.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-vegetables-broccoli.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-vegetables-broccoli.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
-                <a href="index.html" class="nav-link category-item swiper-slide">
-                  <img src="images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
+                <a href="" class="nav-link category-item swiper-slide">
+                  <img src="{{URL::TO('/images/icon-vegetables-broccoli.png')}}" alt="Category Thumbnail">
                   <h3 class="category-title">Fruits & Veges</h3>
                 </a>
                 
@@ -230,7 +230,7 @@
                   <div class="card mb-3 p-3 rounded-4 shadow border-0">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="images/product-thumb-11.jpg" class="img-fluid rounded" alt="Card title">
+                        <img src="{{URL::TO('/images/product-thumb-11.jpg')}}" class="img-fluid rounded" alt="Card title">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body py-0">
@@ -245,7 +245,7 @@
                   <div class="card mb-3 p-3 rounded-4 shadow border-0">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="images/product-thumb-12.jpg" class="img-fluid rounded" alt="Card title">
+                        <img src="{{URL::TO('/images/product-thumb-12.jpg')}}" class="img-fluid rounded" alt="Card title">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body py-0">
@@ -260,7 +260,7 @@
                   <div class="card mb-3 p-3 rounded-4 shadow border-0">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="images/product-thumb-13.jpg" class="img-fluid rounded" alt="Card title">
+                        <img src="{{URL::TO('/images/product-thumb-13.jpg')}}" class="img-fluid rounded" alt="Card title">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body py-0">
@@ -275,7 +275,7 @@
                   <div class="card mb-3 p-3 rounded-4 shadow border-0">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="images/product-thumb-14.jpg" class="img-fluid rounded" alt="Card title">
+                        <img src="{{URL::TO('/images/product-thumb-14.jpg')}}" class="img-fluid rounded" alt="Card title">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body py-0">
@@ -290,7 +290,7 @@
                   <div class="card mb-3 p-3 rounded-4 shadow border-0">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="images/product-thumb-11.jpg" class="img-fluid rounded" alt="Card title">
+                        <img src="{{URL::TO('/images/product-thumb-11.jpg')}}" class="img-fluid rounded" alt="Card title">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body py-0">
@@ -305,7 +305,7 @@
                   <div class="card mb-3 p-3 rounded-4 shadow border-0">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="images/product-thumb-12.jpg" class="img-fluid rounded" alt="Card title">
+                        <img src="{{URL::TO('/images/product-thumb-12.jpg')}}" class="img-fluid rounded" alt="Card title">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body py-0">
@@ -353,8 +353,8 @@
                         <span class="badge bg-success position-absolute m-3">-30%</span>
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-bananas.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -385,7 +385,7 @@
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
                           <a href="index.html" title="Product Title">
-                            <img src="images/thumb-biscuits.png"  class="tab-image">
+                            <img src="{{URL::TO('/images/thumb-biscuits.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -415,7 +415,7 @@
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
                           <a href="index.html" title="Product Title">
-                            <img src="images/thumb-cucumber.png"  class="tab-image">
+                            <img src="{{URL::TO('/images/thumb-cucumber.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -445,7 +445,7 @@
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
                           <a href="index.html" title="Product Title">
-                            <img src="images/thumb-milk.png"  class="tab-image">
+                            <img src="{{URL::TO('/images/thumb-milk.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -475,7 +475,7 @@
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
                           <a href="index.html" title="Product Title">
-                            <img src="images/thumb-bananas.png"  class="tab-image">
+                            <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -505,7 +505,7 @@
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
                           <a href="index.html" title="Product Title">
-                            <img src="images/thumb-biscuits.png"  class="tab-image">
+                            <img src="{{URL::TO('/images/thumb-biscuits.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -534,8 +534,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-cucumber.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-cucumber.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -564,8 +564,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-milk.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-milk.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -594,8 +594,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-bananas.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -624,8 +624,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-biscuits.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-biscuits.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -664,8 +664,8 @@
                         <span class="badge bg-success position-absolute m-3">-30%</span>
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-cucumber.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-cucumber.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -695,8 +695,8 @@
                         <span class="badge bg-success position-absolute m-3">-30%</span>
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-milk.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-milk.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -726,8 +726,8 @@
                         <span class="badge bg-success position-absolute m-3">-30%</span>
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-orange-juice.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-orange-juice.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -756,8 +756,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-raspberries.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-raspberries.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -786,8 +786,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-bananas.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -816,8 +816,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-bananas.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -854,8 +854,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-cucumber.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-cucumber.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -884,8 +884,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-milk.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-milk.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -914,8 +914,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-tomatoes.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-tomatoes.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -944,8 +944,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-tomatoketchup.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-tomatoketchup.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -974,8 +974,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-bananas.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -1004,8 +1004,8 @@
                       <div class="product-item">
                         <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                         <figure>
-                          <a href="index.html" title="Product Title">
-                            <img src="images/thumb-bananas.png"  class="tab-image">
+                          <a href="" title="Product Title">
+                            <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                           </a>
                         </figure>
                         <h3>Sunstar Fresh Melon Juice</h3>
@@ -1048,7 +1048,7 @@
         <div class="row">
           
           <div class="col-md-6">
-            <div class="banner-ad bg-danger mb-3" style="background: url('images/ad-image-3.png');background-repeat: no-repeat;background-position: right bottom;">
+            <div class="banner-ad bg-danger mb-3" style="background: url('{{URL::TO('/images/ad-image-3.png')}}');background-repeat: no-repeat;background-position: right bottom;">
               <div class="banner-content p-5">
 
                 <div class="categories text-primary fs-3 fw-bold">Upto 25% Off</div>
@@ -1061,7 +1061,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="banner-ad bg-info" style="background: url('images/ad-image-4.png');background-repeat: no-repeat;background-position: right bottom;">
+            <div class="banner-ad bg-info" style="background: url('{{URL::TO('/images/ad-image-4.png')}}');background-repeat: no-repeat;background-position: right bottom;">
               <div class="banner-content p-5">
 
                 <div class="categories text-primary fs-3 fw-bold">Upto 25% Off</div>
@@ -1108,8 +1108,8 @@
                   <span class="badge bg-success position-absolute m-3">-15%</span>
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-tomatoes.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-tomatoes.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1137,8 +1137,8 @@
                   <span class="badge bg-success position-absolute m-3">-15%</span>
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-tomatoketchup.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-tomatoketchup.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1166,8 +1166,8 @@
                   <span class="badge bg-success position-absolute m-3">-15%</span>
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-bananas.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1195,8 +1195,8 @@
                   <span class="badge bg-success position-absolute m-3">-15%</span>
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-bananas.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1222,36 +1222,8 @@
                 <div class="product-item swiper-slide">
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-tomatoes.png"  class="tab-image">
-                    </a>
-                  </figure>
-                  <h3>Sunstar Fresh Melon Juice</h3>
-                  <span class="qty">1 Unit</span><span class="rating"><svg width="24" height="24" class="text-primary"><use xlink:href="#star-solid"></use></svg> 4.5</span>
-                  <span class="price">$18.00</span>
-                  <div class="d-flex align-items-center justify-content-between">
-                    <div class="input-group product-qty">
-                        <span class="input-group-btn">
-                            <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-type="minus">
-                              <svg width="16" height="16"><use xlink:href="#minus"></use></svg>
-                            </button>
-                        </span>
-                        <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1">
-                        <span class="input-group-btn">
-                            <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus">
-                                <svg width="16" height="16"><use xlink:href="#plus"></use></svg>
-                            </button>
-                        </span>
-                    </div>
-                    <a href="#" class="nav-link">Add to Cart <iconify-icon icon="uil:shopping-cart"></a>
-                  </div>
-                </div>
-
-                <div class="product-item swiper-slide">
-                  <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
-                  <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-tomatoketchup.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-tomatoes.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1278,8 +1250,8 @@
                 <div class="product-item swiper-slide">
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-bananas.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-tomatoketchup.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1306,8 +1278,36 @@
                 <div class="product-item swiper-slide">
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-bananas.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
+                    </a>
+                  </figure>
+                  <h3>Sunstar Fresh Melon Juice</h3>
+                  <span class="qty">1 Unit</span><span class="rating"><svg width="24" height="24" class="text-primary"><use xlink:href="#star-solid"></use></svg> 4.5</span>
+                  <span class="price">$18.00</span>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="input-group product-qty">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-type="minus">
+                              <svg width="16" height="16"><use xlink:href="#minus"></use></svg>
+                            </button>
+                        </span>
+                        <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus">
+                                <svg width="16" height="16"><use xlink:href="#plus"></use></svg>
+                            </button>
+                        </span>
+                    </div>
+                    <a href="#" class="nav-link">Add to Cart <iconify-icon icon="uil:shopping-cart"></a>
+                  </div>
+                </div>
+
+                <div class="product-item swiper-slide">
+                  <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
+                  <figure>
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1412,8 +1412,8 @@
                 <div class="product-item swiper-slide">
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-tomatoes.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-tomatoes.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1440,8 +1440,8 @@
                 <div class="product-item swiper-slide">
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-tomatoketchup.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-tomatoketchup.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1468,8 +1468,8 @@
                 <div class="product-item swiper-slide">
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-bananas.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1496,8 +1496,8 @@
                 <div class="product-item swiper-slide">
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-bananas.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1523,36 +1523,8 @@
                 <div class="product-item swiper-slide">
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-tomatoes.png"  class="tab-image">
-                    </a>
-                  </figure>
-                  <h3>Sunstar Fresh Melon Juice</h3>
-                  <span class="qty">1 Unit</span><span class="rating"><svg width="24" height="24" class="text-primary"><use xlink:href="#star-solid"></use></svg> 4.5</span>
-                  <span class="price">$18.00</span>
-                  <div class="d-flex align-items-center justify-content-between">
-                    <div class="input-group product-qty">
-                        <span class="input-group-btn">
-                            <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-type="minus">
-                              <svg width="16" height="16"><use xlink:href="#minus"></use></svg>
-                            </button>
-                        </span>
-                        <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1">
-                        <span class="input-group-btn">
-                            <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus">
-                                <svg width="16" height="16"><use xlink:href="#plus"></use></svg>
-                            </button>
-                        </span>
-                    </div>
-                    <a href="#" class="nav-link">Add to Cart <iconify-icon icon="uil:shopping-cart"></a>
-                  </div>
-                </div>
-
-                <div class="product-item swiper-slide">
-                  <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
-                  <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-tomatoketchup.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-tomatoes.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>
@@ -1579,8 +1551,36 @@
                 <div class="product-item swiper-slide">
                   <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
                   <figure>
-                    <a href="index.html" title="Product Title">
-                      <img src="images/thumb-bananas.png"  class="tab-image">
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-tomatoketchup.png')}}"  class="tab-image">
+                    </a>
+                  </figure>
+                  <h3>Sunstar Fresh Melon Juice</h3>
+                  <span class="qty">1 Unit</span><span class="rating"><svg width="24" height="24" class="text-primary"><use xlink:href="#star-solid"></use></svg> 4.5</span>
+                  <span class="price">$18.00</span>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="input-group product-qty">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-type="minus">
+                              <svg width="16" height="16"><use xlink:href="#minus"></use></svg>
+                            </button>
+                        </span>
+                        <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus">
+                                <svg width="16" height="16"><use xlink:href="#plus"></use></svg>
+                            </button>
+                        </span>
+                    </div>
+                    <a href="#" class="nav-link">Add to Cart <iconify-icon icon="uil:shopping-cart"></a>
+                  </div>
+                </div>
+
+                <div class="product-item swiper-slide">
+                  <a href="#" class="btn-wishlist"><svg width="24" height="24"><use xlink:href="#heart"></use></svg></a>
+                  <figure>
+                    <a href="" title="Product Title">
+                      <img src="{{URL::TO('/images/thumb-bananas.png')}}"  class="tab-image">
                     </a>
                   </figure>
                   <h3>Sunstar Fresh Melon Juice</h3>

@@ -159,19 +159,22 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">ตำบล/แขวง</label>
-                                    <input type="text"
-                                    class="form-control form-control-lg" name="Subdistrict" id="Sub-district" placeholder="กรุณาระบุตำบลหรือแขวงที่ท่านอาศัยอยู่">
+                                    <select  class="form-select" name="Subdistrict" id="Sub-district" aria-label="Default select example">
+                                        <option value="">--กรุณาเลือกตำบล/แขวง--</option>
+                                    </select>
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">อำเภอ/เขต</label>
-                                    <input type="text"
-                                    class="form-control form-control-lg" name="District" id="District" placeholder="กรุณาระบุอำเภอ/เขตที่อาศัยอยู่">
+                                    <select  class="form-select" name="District" id="District" aria-label="Default select example">
+                                        <option value="">--กรุณาเลือกอำเภอ/เขต--</option>
+                                    </select> 
                                 </div>
                                 
                                 <div class="mb-3">
                                     <label for="" class="form-label">รหัสไปษรณี</label>
-                                    <input type="text" class="form-control form-control-lg" name="PostalCode" id="PostalCode" placeholder="กรุณาระบุรหัสไปรษณี">
-
+                                    <select  class="form-select" name="PostalCode" id="PostalCode" aria-label="Default select example">
+                                        <option value="">--กรุณาเลือกรหัสไปษรณี--</option>
+                                    </select> 
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">Email</label>

@@ -27,7 +27,7 @@
     <section class="py-5">
         <div class="container-fluid">
 
-            <div class="bg-secondary py-5 my-5 rounded-5" style="background: url('images/bg-leaves-img-pattern.png') no-repeat;">
+            <div class="bg-secondary py-5 my-5 rounded-5" style="background: url('{{URL::TO('images/bg-leaves-img-pattern.png')}}') no-repeat;">
                 <div class="container my-5">
                     <div class="row">
                         <div class="col-md-6 p-5">
@@ -73,16 +73,6 @@
                                     <label for="name" class="form-label">ถนน</label>
                                     <input type="text"
                                     class="form-control form-control-lg" name="Road" id="Road" placeholder="กรุณาระบุถนนสายอะไรหรือเส้นอะไร">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">ตำบล/แขวง</label>
-                                    <input type="text"
-                                    class="form-control form-control-lg" name="Subdistrict" id="Sub-district" placeholder="กรุณาระบุตำบลหรือแขวงที่ท่านอาศัยอยู่">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">อำเภอ/เขต</label>
-                                    <input type="text"
-                                    class="form-control form-control-lg" name="District" id="District" placeholder="กรุณาระบุอำเภอ/เขตที่อาศัยอยู่">
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">จังหวัด</label>
@@ -168,6 +158,17 @@
                                     </select>   
                                 </div>
                                 <div class="mb-3">
+                                    <label for="name" class="form-label">ตำบล/แขวง</label>
+                                    <input type="text"
+                                    class="form-control form-control-lg" name="Subdistrict" id="Sub-district" placeholder="กรุณาระบุตำบลหรือแขวงที่ท่านอาศัยอยู่">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">อำเภอ/เขต</label>
+                                    <input type="text"
+                                    class="form-control form-control-lg" name="District" id="District" placeholder="กรุณาระบุอำเภอ/เขตที่อาศัยอยู่">
+                                </div>
+                                
+                                <div class="mb-3">
                                     <label for="" class="form-label">รหัสไปษรณี</label>
                                     <input type="text" class="form-control form-control-lg" name="PostalCode" id="PostalCode" placeholder="กรุณาระบุรหัสไปรษณี">
 
@@ -212,5 +213,6 @@
     <script src="{{asset('js/script.js')}}"></script>
     <script src="{{asset('js/dropdown.js')}}"></script>
     <script src="{{asset('js/menu_dropdown.js')}}"></script>
+    <script src="{{asset('js/address-select.js')}}"></script>
 </body>
 </html>

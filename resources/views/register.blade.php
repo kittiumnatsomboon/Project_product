@@ -59,22 +59,14 @@
                                     <input type="text"
                                     class="form-control form-control-lg" name="housenumber" id="housenumber" placeholder="กรุณาระบุบ้านเลขที่">
                                 </div>
+                                
                                 <div class="mb-3">
                                     <label for="name" class="form-label">หมู่ที่</label>
                                     <input type="text"
                                     class="form-control form-control-lg" name="VillageNumber" id="VillageNumber" placeholder="กรุณาระบุหมู่ที่ของบ้าน">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="name" class="form-label">ซอย</label>
-                                    <input type="text"
-                                    class="form-control form-control-lg" name="Alley" id="Alley" placeholder="กรุณาระบุหมู่ที่ของบ้าน">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">ถนน</label>
-                                    <input type="text"
-                                    class="form-control form-control-lg" name="Road" id="Road" placeholder="กรุณาระบุถนนสายอะไรหรือเส้นอะไร">
-                                </div>
-                                <div class="mb-3">
+
                                     <label for="name" class="form-label">จังหวัด</label>
                                     <select  class="form-select" name="province" id="province" aria-label="Default select example">
                                         <option value="">-- กรุณาเลือกจังหวัด --</option>
@@ -158,16 +150,26 @@
                                     </select>   
                                 </div>
                                 <div class="mb-3">
+
+                                    <label for="name" class="form-label">ซอย</label>
+                                    <input type="text"
+                                    class="form-control form-control-lg" name="Alley" id="Alley" placeholder="กรุณาระบุหมู่ที่ของบ้าน">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">ถนน</label>
+                                    <input type="text"
+                                    class="form-control form-control-lg" name="Road" id="Road" placeholder="กรุณาระบุถนนสายอะไรหรือเส้นอะไร">
+                                </div>
+                                <div class="mb-3">
                                     <label for="name" class="form-label">ตำบล/แขวง</label>
-                                    <select  class="form-select" name="Subdistrict" id="Sub-district" aria-label="Default select example">
-                                        <option value="">--กรุณาเลือกตำบล/แขวง--</option>
-                                    </select>
+                                    <input type="text"
+                                    class="form-control form-control-lg" name="Subdistrict" id="Sub-district" placeholder="กรุณาระบุตำบลหรือแขวงที่ท่านอาศัยอยู่">
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">อำเภอ/เขต</label>
-                                    <select  class="form-select" name="District" id="District" aria-label="Default select example">
-                                        <option value="">--กรุณาเลือกอำเภอ/เขต--</option>
-                                    </select> 
+                                    <input type="text"
+                                    class="form-control form-control-lg" name="District" id="District" placeholder="กรุณาระบุอำเภอ/เขตที่อาศัยอยู่">
+
                                 </div>
                                 
                                 <div class="mb-3">

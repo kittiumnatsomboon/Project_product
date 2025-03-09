@@ -59,6 +59,12 @@
                                     <input type="text"
                                     class="form-control form-control-lg" name="housenumber" id="housenumber" placeholder="กรุณาระบุบ้านเลขที่">
                                 </div>
+                                
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">หมู่ที่</label>
+                                    <input type="text"
+                                    class="form-control form-control-lg" name="VillageNumber" id="VillageNumber" placeholder="กรุณาระบุหมู่ที่ของบ้าน">
+                                </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">จังหวัด</label>
                                     <select  class="form-select" name="province" id="province" aria-label="Default select example">
@@ -141,11 +147,6 @@
                                         <option value="อุบลราชธานี">อุบลราชธานี</option>
                                         <option value="อ่างทอง">อ่างทอง</option>
                                     </select>   
-                                </div>
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">หมู่ที่</label>
-                                    <input type="text"
-                                    class="form-control form-control-lg" name="VillageNumber" id="VillageNumber" placeholder="กรุณาระบุหมู่ที่ของบ้าน">
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">ซอย</label>

@@ -29,7 +29,43 @@ class Registercontroller extends Controller
      */
     public function store(Request $request)
     {
-        //
+       
+        $request->validate([
+            'fullname' => 'required',
+            'dateofbirth' => 'required',
+            'telephone_number' => 'required',
+            'housenumber' => 'required',
+            'VillageNumber' => 'required',
+            'Alley' => 'required',
+            'Road' => 'required',
+            'Subdistrict' => 'required',
+            'District' => 'required',
+            'Province' => 'required',
+            'PostalCode' => 'required',
+            'email' => 'required|email|unique:users',
+            'password' => 'required|min:6',
+            'confirmpassword' => 'required|min:6',
+        ]);
+        
+        User::create([
+            'fullname' => $request-> fullname,
+            'dateofbirth' => $request->dateofbirth,
+            'telephone_number'=> $request->telephone_number,
+            'user_type'=> '0',
+            'housenumber' => $request->housenumber,
+            'VillageNumber'=> $request->VillageNumber,
+            'Alley'=> $request->Alley,
+            'Road'=> $request->Road,
+            'Sub-district' => $request->Subdistrict,
+            'District'=> $request->District,
+            'Province'=> $request->Province,
+            'Postal Code'=> $request->PostalCode,
+            'email'=> $request->email,            
+            'password' => Hash::make($request->password),
+        ]);
+            return redirect('/login')->with('success', 'Registration successful! Please log in.');
+        
+        
     }
 
     /**

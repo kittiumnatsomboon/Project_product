@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">จังหวัด</label>
-                                    <select id="province" class="form-select" name="province" aria-label="Default select example">
+                                    <select  class="form-select" name="province" id="province" aria-label="Default select example">
                                         <option value="">-- กรุณาเลือกจังหวัด --</option>
                                         <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
                                         <option value="กระบี่">กระบี่</option>

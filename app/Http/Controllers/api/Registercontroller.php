@@ -5,6 +5,7 @@ namespace App\Http\Controllers\api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 class Registercontroller extends Controller
 {
     /**
@@ -40,7 +41,7 @@ class Registercontroller extends Controller
             'Road' => 'required',
             'Subdistrict' => 'required',
             'District' => 'required',
-            'Province' => 'required',
+            'province' => 'required',
             'PostalCode' => 'required',
             'email' => 'required',
             'password' => 'required',
@@ -57,13 +58,13 @@ class Registercontroller extends Controller
             'Road'=> $request->Road,
             'Subdistrict' => $request->Subdistrict,
             'District'=> $request->District,
-            'Province'=> $request->Province,
+            'Province'=> $request->province,
             'Postal Code'=> $request->PostalCode,
             'email'=> $request->email,            
             'password' => Hash::make($request->password),
         ]);
-        exit;
-            return redirect('/login')->with('success', 'Registration successful! Please log in.');
+        
+        return redirect('/login')->with('success', 'Registration successful! Please log in.');
         
         
     }

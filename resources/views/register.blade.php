@@ -27,7 +27,7 @@
     <section class="py-5">
         <div class="container-fluid">
 
-            <div class="bg-secondary py-5 my-5 rounded-5" style="background: url('images/bg-leaves-img-pattern.png') no-repeat;">
+            <div class="bg-secondary py-5 my-5 rounded-5" style="background: url('{{URL::TO('images/bg-leaves-img-pattern.png')}}') no-repeat;">
                 <div class="container my-5">
                     <div class="row">
                         <div class="col-md-6 p-5">
@@ -66,6 +66,7 @@
                                     class="form-control form-control-lg" name="VillageNumber" id="VillageNumber" placeholder="กรุณาระบุหมู่ที่ของบ้าน">
                                 </div>
                                 <div class="mb-3">
+
                                     <label for="name" class="form-label">จังหวัด</label>
                                     <select  class="form-select" name="province" id="province" aria-label="Default select example">
                                         <option value="">-- กรุณาเลือกจังหวัด --</option>
@@ -149,6 +150,7 @@
                                     </select>   
                                 </div>
                                 <div class="mb-3">
+
                                     <label for="name" class="form-label">ซอย</label>
                                     <input type="text"
                                     class="form-control form-control-lg" name="Alley" id="Alley" placeholder="กรุณาระบุหมู่ที่ของบ้าน">
@@ -167,12 +169,14 @@
                                     <label for="name" class="form-label">อำเภอ/เขต</label>
                                     <input type="text"
                                     class="form-control form-control-lg" name="District" id="District" placeholder="กรุณาระบุอำเภอ/เขตที่อาศัยอยู่">
+
                                 </div>
                                 
                                 <div class="mb-3">
                                     <label for="" class="form-label">รหัสไปษรณี</label>
-                                    <input type="text" class="form-control form-control-lg" name="PostalCode" id="PostalCode" placeholder="กรุณาระบุรหัสไปรษณี">
-
+                                    <select  class="form-select" name="PostalCode" id="PostalCode" aria-label="Default select example">
+                                        <option value="">--กรุณาเลือกรหัสไปษรณี--</option>
+                                    </select> 
                                 </div>
                                 <div class="mb-3">
                                     <label for="" class="form-label">Email</label>
@@ -214,5 +218,6 @@
     <script src="{{asset('js/script.js')}}"></script>
     <script src="{{asset('js/dropdown.js')}}"></script>
     <script src="{{asset('js/menu_dropdown.js')}}"></script>
+    <script src="{{asset('js/address-select.js')}}"></script>
 </body>
 </html>

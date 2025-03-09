@@ -26,7 +26,7 @@ class User extends Authenticatable
         'VillageNumber',
         'Alley',
         'Road',
-        'Sub-district',
+        'Subdistrict',
         'District',
         'Province',
         'Postal Code',

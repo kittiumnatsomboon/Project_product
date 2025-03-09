@@ -10,3 +10,4 @@ Route::get('/customer/register',function(){
     return view('register');
 })->name('register');
 Route::get('/Register', [Registercontroller::class, 'index']);
+Route::resource('/customer/Signup',Registercontroller::class);

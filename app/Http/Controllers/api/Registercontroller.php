@@ -5,6 +5,7 @@ namespace App\Http\Controllers\api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 class Registercontroller extends Controller
 {
     /**
@@ -29,7 +30,43 @@ class Registercontroller extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
+        $request->validate([
+            'fullname' => 'required',
+            'dateofbrith' => 'required',
+            'telephone' => 'required',
+            'housenumber' => 'required',
+            'VillageNumber' => 'required',
+            'Alley' => 'required',
+            'Road' => 'required',
+            'Subdistrict' => 'required',
+            'District' => 'required',
+            'province' => 'required',
+            'PostalCode' => 'required',
+            'email' => 'required',
+            'password' => 'required',
+        ]);
+        
+        User::create([
+            'fullname' => $request-> fullname,
+            'dateofbirth' => $request->dateofbrith,
+            'telephone_number'=> $request->telephone,
+            'user_type'=> '0',
+            'housenumber' => $request->housenumber,
+            'VillageNumber'=> $request->VillageNumber,
+            'Alley'=> $request->Alley,
+            'Road'=> $request->Road,
+            'Subdistrict' => $request->Subdistrict,
+            'District'=> $request->District,
+            'Province'=> $request->province,
+            'Postal Code'=> $request->PostalCode,
+            'email'=> $request->email,            
+            'password' => Hash::make($request->password),
+        ]);
+        
+        return redirect('/login')->with('success', 'Registration successful! Please log in.');
+        
+        
     }
 
     /**

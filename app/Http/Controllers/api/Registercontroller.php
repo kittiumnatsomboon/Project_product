@@ -13,8 +13,8 @@ class Registercontroller extends Controller
      */
     public function index()
     {
-        $user = User::all();
-        return response()->json($user);
+        // $user = User::all();
+        return response()->json(['status' => 'error', 'message' => 'error 404 dis playpage'], 422);
     }
 
     /**

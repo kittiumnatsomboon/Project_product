@@ -11,3 +11,4 @@ Route::get('/customer/register',function(){
 })->name('register');
 Route::get('/Register', [Registercontroller::class, 'index']);
 Route::resource('/customer/Signup',Registercontroller::class);
+Route::get('/Customer',[Registercontroller::class,'create']);

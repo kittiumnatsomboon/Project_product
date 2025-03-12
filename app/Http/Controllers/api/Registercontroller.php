@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
 class Registercontroller extends Controller
 {
     /**
@@ -22,7 +23,9 @@ class Registercontroller extends Controller
      */
     public function create()
     {
-        //
+        $user = DB::table('users')->get();
+        return response()->json($user);
+        
     }
 
     /**

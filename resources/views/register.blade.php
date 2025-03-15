@@ -162,14 +162,17 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">ตำบล/แขวง</label>
-                                    <input type="text"
-                                    class="form-control form-control-lg" name="Subdistrict" id="Sub-district" placeholder="กรุณาระบุตำบลหรือแขวงที่ท่านอาศัยอยู่">
+                                    <select  class="form-select" name="Subdistrict" id="Sub-district" aria-label="Default select example">
+                                        <option value="">-- กรุณาแขวงหรือตำบล --</option>
+                                    </select>
+                                    
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">อำเภอ/เขต</label>
-                                    <input type="text"
-                                    class="form-control form-control-lg" name="District" id="District" placeholder="กรุณาระบุอำเภอ/เขตที่อาศัยอยู่">
-
+                                    <select  class="form-select" name="District" id="District" aria-label="Default select example">
+                                        <option value="">-- กรุณาเขตและอำเภอ --</option>
+                                    </select>
+                                    
                                 </div>
                                 
                                 <div class="mb-3">

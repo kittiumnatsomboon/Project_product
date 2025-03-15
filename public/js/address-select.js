@@ -1,6 +1,10 @@
 $(document).ready(function(){
     function displayNum() { 
-        console.log($("select#province").val()); 
+        switch($("select#province").val()){
+            case "กรุงเทพมหานคร":
+            
+            break;
+        }
     } 
     // When the selected value will change, 
     // the above function is called 

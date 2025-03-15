@@ -170,7 +170,13 @@
                                 <div class="mb-3">
                                     <label for="name" class="form-label">อำเภอ/เขต</label>
                                     <select  class="form-select" name="District" id="District" aria-label="Default select example">
-                                        <option value="">-- กรุณาเขตและอำเภอ --</option>
+                                        <option value="0" id="defualt_district">-- กรุณาเขตและอำเภอ --</option>
+                                        <option value="" id="option_district"></option>
+                                        <option value="" id="option_district_2"></option>
+                                        <option value="" id="option_district_3"></option>
+                                        <option value="" id="option_district_4"></option>
+                                        <option value="" id="option_district_5"></option>
+                                        <option value="" id="option_district_6"></option>
                                     </select>
                                     
                                 </div>

@@ -183,7 +183,7 @@
                 </a>
                   <ul class="dropdown-menu" id="dropdown-id" aria-labelledby="pages">
                     <li><a href="{{route('register')}}" class="dropdown-item">สมัครสมาชิก</a></li>
-                    <li><a href="index.html" class="dropdown-item">เข้าสู่ระบบ</a></li>
+                    <li><a href="{{route('login')}}" class="dropdown-item">เข้าสู่ระบบ</a></li>
                     <li><a href="index.html" class="dropdown-item">google login</a></li>
                     <li><a href="index.html" class="dropdown-item">Cart </a></li>
                     <li><a href="index.html" class="dropdown-item">Checkout </a></li>

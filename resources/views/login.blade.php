@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>สมัครสมาชิก</title>
+        <title>เข้าสู่ระบบ</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -162,23 +162,14 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">ตำบล/แขวง</label>
-                                    <select  class="form-select" name="Subdistrict" id="Sub-district" aria-label="Default select example">
-                                        <option value="">-- กรุณาแขวงหรือตำบล --</option>
-                                    </select>
-                                    
+                                    <input type="text"
+                                    class="form-control form-control-lg" name="Subdistrict" id="Sub-district" placeholder="กรุณาระบุตำบลหรือแขวงที่ท่านอาศัยอยู่">
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">อำเภอ/เขต</label>
-                                    <select  class="form-select" name="District" id="District" aria-label="Default select example">
-                                        <option value="0" id="defualt_district">-- กรุณาเขตและอำเภอ --</option>
-                                        <option value="" id="option_district"></option>
-                                        <option value="" id="option_district_2"></option>
-                                        <option value="" id="option_district_3"></option>
-                                        <option value="" id="option_district_4"></option>
-                                        <option value="" id="option_district_5"></option>
-                                        <option value="" id="option_district_6"></option>
-                                    </select>
-                                    
+                                    <input type="text"
+                                    class="form-control form-control-lg" name="District" id="District" placeholder="กรุณาระบุอำเภอ/เขตที่อาศัยอยู่">
+
                                 </div>
                                 
                                 <div class="mb-3">

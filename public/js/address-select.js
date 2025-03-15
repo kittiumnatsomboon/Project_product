@@ -11,9 +11,19 @@ $(document).ready(function(){
             break;
             case "กระบี่":
                 document.getElementById('option_district').innerHTML = `<option value="อำเภอ..." id="">อำเภอ...</option>`
+                document.getElementById('option_district_2').innerHTML = `<option value="อำเภอ..." id="">อำเภอ...</option>`
+                document.getElementById('option_district_3').innerHTML = `<option value="อำเภอ..." id="">อำเภอ...</option>`
+                document.getElementById('option_district_4').innerHTML = `<option value="อำเภอ..." id="">อำเภอ...</option>`
+                document.getElementById('option_district_5').innerHTML = `<option value="อำเภอ..." id="">อำเภอ...</option>`
+                document.getElementById('option_district_6').innerHTML = `<option value="อำเภอ..." id="">อำเภอ...</option>`
                 break;
             default:
                 document.getElementById('defualt_district').innerHTML = `<option value="" id="">กรุณาเลือกจังหวัดก่อน</option>`
+                document.getElementById('option_district_2').innerHTML = `<option value="" id=""></option>`
+                document.getElementById('option_district_3').innerHTML = `<option value="" id=""></option>`
+                document.getElementById('option_district_4').innerHTML = `<option value="" id=""></option>`
+                document.getElementById('option_district_5').innerHTML = `<option value="" id=""></option>`
+                document.getElementById('option_district_6').innerHTML = `<option value="" id=""></option>`
                 break;
         }
     } 

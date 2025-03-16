@@ -162,8 +162,17 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">ตำบล/แขวง</label>
-                                    <select  class="form-select" name="Subdistrict" id="Sub-district" aria-label="Default select example">
+                                    <select  class="form-select" name="Subdistrict" id="Subdistrict" aria-label="Default select example">
                                         <option value="">-- กรุณาแขวงหรือตำบล --</option>
+                                        <option value="" id="Sub-district_1"></option>
+                                        <option value="" id="Sub-district_2"></option>
+                                        <option value="" id="Sub-district_3"></option>
+                                        <option value="" id="Sub-district_4"></option>
+                                        <option value="" id="Sub-district_5"></option>
+                                        <option value="" id="Sub-district_6"></option>
+                                        <option value="" id="Sub-district_7"></option>
+                                        <option value="" id="Sub-district_8"></option>
+                                        <option value="" id="Sub-district_9"></option>
                                     </select>
                                     
                                 </div>

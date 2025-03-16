@@ -2,17 +2,8 @@ $(document).ready(function(){
     async function displayNum() { 
         switch($("select#province").val()){
             case "กรุงเทพมหานคร":
-                // document.getElementById('option_district').innerHTML = `<option value="แขวงพระบรมมหาราชวัง" id="">แขวงพระบรมมหาราชวัง</option>`
-                // document.getElementById('option_district_2').innerHTML = `<option value="แขวงวังบูรพาภิรมย์" id="">แขวงวังบูรพาภิรมย์</option>`
-                // document.getElementById('option_district_3').innerHTML = `<option value="แขวงวัดราชบพิธ" id="">แขวงวัดราชบพิธ</option>`
-                // document.getElementById('option_district_4').innerHTML = `<option value="แขวงสำราญราษฎร์" id="">แขวงสำราญราษฎร์</option>`
-                // document.getElementById('option_district_5').innerHTML = `<option value="แขวงศาลเจ้าพ่อเสือ" id="">แขวงศาลเจ้าพ่อเสือ</option>`
-                // document.getElementById('option_district_6').innerHTML = `<option value="แขวงเสาชิงช้า" id="">แขวงเสาชิงช้า</option>`
-                // document.getElementById('option_district_7').innerHTML = `<option value="แขวงดุสิต" id="">แขวงดุสิต</option>`
-                // document.getElementById('option_district_8').innerHTML = `<option value="แขวงวชิรพยาบาล" id="">แขวงวชิรพยาบาล</option>`
-                // document.getElementById('option_district_9').innerHTML = `<option value="แขวงสวนจิตรลดา" id="">แขวงสวนจิตรลดา</option>`
-
                 document.getElementById('option_district').innerHTML = `<option value="เขตพระนคร" id="">เขตพระนคร</option>`
+                
                 document.getElementById('option_district_2').innerHTML = `<option value="เขตดุสิต" id="">เขตดุสิต</option>`
                 document.getElementById('option_district_3').innerHTML = `<option value="เขตหนองจอก" id="">เขตหนองจอก</option>`
                 document.getElementById('option_district_4').innerHTML = `<option value="เขตบางรัก" id="">เขตบางรัก</option>`
@@ -40,6 +31,11 @@ $(document).ready(function(){
                 document.getElementById('option_district_6').innerHTML = `<option value="" id=""></option>`
                 break;
         }
+        switch($("select#Subdistrict")){
+            case "เขตพระนคร":
+            console.log('HELLOWORLD')
+        }
+           
     } 
     // When the selected value will change, 
     // the above function is called 
